@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# NEXT_PUBLIC_VAPI_WORKFLOW_ID="3fb71bcc-cb98-4800-8332-eecd5b41e481"

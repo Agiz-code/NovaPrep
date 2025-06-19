@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { vapi } from "@/lib/vapi.sdk";
 import { interviewer } from "@/constants";
-import { createFeedback } from "@/lib/actions/general.action"
+import { createFeedback } from "@/lib/actions/general.action";
 
 enum CallStatus {
   INACTIVE = "INACTIVE",
@@ -124,7 +124,7 @@ const Agent = ({
           userid: userId,
         },
         clientMessages: [],
-        serverMessages: []
+        serverMessages: [],
       });
     } else {
       let formattedQuestions = "";
@@ -139,7 +139,7 @@ const Agent = ({
           questions: formattedQuestions,
         },
         clientMessages: [],
-        serverMessages: []
+        serverMessages: [],
       });
     }
   };
