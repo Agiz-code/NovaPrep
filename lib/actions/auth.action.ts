@@ -132,4 +132,4 @@ export async function isAuthenticated() {
   return !!user;
 }
 
-// 2: 40: 50 sec
+// 2: 40: 50 seconds
